@@ -1,9 +1,9 @@
 .highlight {
-  color: #855133;
+  color: #d47d6b;
 }
 
 .underline {
-  border-bottom: 3px solid #855133;
+  border-bottom: 3px solid #d47d6b;
   padding-bottom: 0.5rem;
 }
 
@@ -13,14 +13,14 @@
 }
 
 .nav-item .active {
-  color: #855133 !important;
+  color: #d47d6b !important;
 }
 
 .btn-primary, #projects-section .nav-item .active {
   color: #ffffff !important;
   border-radius: 0;
-  background-color: #855133;
-  border-color: #855133;
+  background-color: #d47d6b;
+  border-color: #d47d6b;
   text-decoration: none;
   font-weight: bold;
   padding: 10px 20px !important;
@@ -43,7 +43,7 @@
 }
 
 .carousel-caption h5 {
-  color: #855133;
+  color: #d47d6b;
 }
 
 .carousel-caption p {
@@ -60,13 +60,13 @@
 }
 
 .service-icon {
-  border-bottom: 5px solid #855133;
+  border-bottom: 5px solid #d47d6b;
   padding-bottom: 1rem;
   margin-bottom: 1rem;
 }
 
 .service:hover {
-  background-color: #855133;
+  background-color: #d47d6b;
   text-align: center;
   color: #ffffff;
 }
@@ -76,7 +76,7 @@
 }
 
 .make-appointment {
-  background-color: #855133;
+  background-color: #d47d6b;
 }
 
 .make-appointment h5 {
@@ -159,7 +159,7 @@
 }
 
 #footer-upper a:hover {
-  color: #855133;
+  color: #d47d6b;
 }
 
 #footer-upper ul {
@@ -171,7 +171,7 @@
 }
 
 #footer-upper li a i {
-  color: #855133;
+  color: #d47d6b;
 }
 
 #footer-lower {
@@ -214,7 +214,7 @@
 }
 
 .gallery-parent .btn-primary:hover, .gallery-parent #projects-section .nav-item .active:hover, #projects-section .nav-item .gallery-parent .active:hover {
-  background-color: #855133;
+  background-color: #d47d6b;
 }
 
 .working-hours {
