@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css"
+      integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK"
+      crossorigin="anonymous"
+    />
+
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/heart.png" type="image/x-icon" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles/css/main.css" />
+
+    <title>Medical Plus</title>
+  </head>
+  <body>
+    <header class="sticky-top">
+      <section id="top-bar">
+        <!-- navbar start -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+          <div class="container">
+            <a class="navbar-brand" href="#!"
+              ><span class="highlight">M</span>EDICAL
+              <span class="highlight">+</span></a
+            >
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#!"
+                    >HOME</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#!">SERVICES</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#!">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#!">BLOG</a>
+                </li>
+                <li class="nav-item mr-lg-3">
+                  <a class="nav-link" href="#!">PAGES</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link btn btn-primary" href="#!"
+                    >MAKE APPOINTMENT</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <!-- navbar end -->
+      </section>
+    </header>
+
+    <!-- slider-section start -->
+    <section id="slider-section">
+      <div
+        id="carouselExampleCaptions"
+        class="carousel carousel-dark slide"
+        data-ride="carousel"
+      >
+        <ol class="carousel-indicators">
+          <li
+            data-target="#carouselExampleCaptions"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <!-- slide 1 -->
+          <div data-interval="2000" class="carousel-item active">
+            <img src="images/top1.png" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>WE PROVIDE</h5>
+              <h3>Medical Services</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum
+                soluta aut ullam aliquid blanditiis sint?
+              </p>
+              <a href="#!" class="btn-primary">READ MORE</a>
+            </div>
+          </div>
+          <!-- slide 2 -->
+          <div data-interval="2000" class="carousel-item">
+            <img src="images/top2.png" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>WE PROVIDE</h5>
+              <h3>Medical Services</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum
+                soluta aut ullam aliquid blanditiis sint?
+              </p>
+              <a href="#!" class="btn-primary">READ MORE</a>
+            </div>
+          </div>
+          <!-- slide 3 -->
+          <div data-interval="2000" class="carousel-item">
+            <img src="images/top3.png" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>WE PROVIDE</h5>
+              <h3>Medical Services</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum
+                soluta aut ullam aliquid blanditiis sint?
+              </p>
+              <a href="#!" class="btn-primary">READ MORE</a>
+            </div>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleCaptions"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleCaptions"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </a>
+      </div>
+    </section>
+    <!-- slider-section end -->
+
+    <!-- appointment-section start -->
+    <section id="appointment-section">
+      <div class="container">
+        <div class="row">
+          <!-- services -->
+          <div class="col-lg-8 pt-5 pb-5">
+            <div class="row">
+              <div class="col-md-4 p-3">
+                <div class="service p-5">
+                  <div class="service-icon">
+                    <i class="fas fa-5x fa-capsules"></i>
+                  </div>
+                  <div class="service-title">Medicine Store</div>
+                </div>
+              </div>
+              <div class="col-md-4 p-3">
+                <div class="service p-5">
+                  <div class="service-icon">
+                    <i class="fas fa-5x fa-tooth"></i>
+                  </div>
+                  <div class="service-title">Dental Surgery</div>
+                </div>
+              </div>
+              <div class="col-md-4 p-3">
+                <div class="service p-5">
+                  <div class="service-icon">
+                    <i class="fas fa-5x fa-heartbeat"></i>
+                  </div>
+                  <div class="service-title">Special Care</div>
+                </div>
+              </div>
+              <div class="col-md-4 p-3">
+                <div class="service p-5">
+                  <div class="service-icon">
+                    <i class="fas fa-5x fa-syringe"></i>
+                  </div>
+                  <div class="service-title">Operation Section</div>
+                </div>
+              </div>
+              <div class="col-md-4 p-3">
+                <div class="service p-5">
+                  <div class="service-icon">
+                    <i class="fas fa-5x fa-stethoscope"></i>
+                  </div>
+                  <div class="service-title">Special Checkup</div>
+                </div>
+              </div>
+              <div class="col-md-4 p-3">
+                <div class="service p-5">
+                  <div class="service-icon">
+                    <i class="fas fa-5x fa-laptop-medical"></i>
+                  </div>
+                  <div class="service-title">Online Consultancy</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- make an appointment -->
+          <div
+            class="col-lg-4 p-5 make-appointment d-flex flex-column justify-content-center"
+          >
+            <h5 class="mb-5">MAKE AN APPOINTMENT</h5>
+            <form action="">
+              <select name="" id="" class="form-select mb-3">
+                <option selected>Select your country</option>
+                <option value="Bangladesh">Bangladesh</option>
+                <option value="India">India</option>
+                <option value="Pakistan">Pakistan</option>
+              </select>
+              <select name="" id="" class="form-select mb-3">
+                <option selected>Choose service</option>
+                <option value="Medicine">Medicine</option>
+                <option value="Dental">Dental</option>
+                <option value="Online">Online Consultancy</option>
+              </select>
+              <select name="" id="" class="form-select mb-3">
+                <option selected>Select doctor</option>
+                <option value="Doctor 1">Doctor 1</option>
+                <option value="Doctor 2">Doctor 2</option>
+                <option value="Doctor 3">Doctor 3</option>
+              </select>
+              <input
+                placeholder="Choose date"
+                class="form-select mb-3"
+                type="text"
+                onfocus="(this.type='date')"
+                onblur="(this.type='text')"
+                id="date"
+              />
+              <input
+                type="text"
+                name=""
+                id=""
+                class="form-select mb-5"
+                placeholder="Choose time"
+                onfocus="(this.type='time')"
+                onblur="(this.type='text')"
+              />
+              <button type="submit" class="btn-primary border-white w-100">
+                CONFIRM APPOINTMENT
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- appointment-section end -->
+
+    <!-- projects-section start -->
+    <section id="projects-section" class="py-5">
+      <h4 class="mb-5">
+        <span class="highlight">HEALTH</span>
+        CA<span class="underline">RE</span>
+        PROJECTS
+      </h4>
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#!">All</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#!">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#!">Healthcare</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#!">Operations</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#!">Drugs Solutions</a>
+        </li>
+      </ul>
+      <!-- gallery -->
+      <div class="container-fluid">
+        <div class="row row-cols-5 mt-5 mb-5">
+          <div class="col gallery-parent">
+            <img class="gallery-image" src="images/gallery/10.jpg" alt="" />
+            <div class="gallery-button">
+              <a href="#!" class="btn-primary">Visit</a>
+            </div>
+          </div>
+          <div class="col gallery-parent">
+            <img src="images/gallery/1.jpg" alt="" class="gallery-image" />
+            <div class="gallery-button">
+              <a href="#!" class="btn-primary">Visit</a>
+            </div>
+          </div>
+          <div class="col gallery-parent">
+            <img src="images/gallery/2.jpg" alt="" class="gallery-image" />
+            <div class="gallery-button">
+              <a href="#!" class="btn-primary">Visit</a>
+            </div>
+          </div>
+          <div class="col gallery-parent">
+            <img src="images/gallery/3.jpg" alt="" class="gallery-image" />
+            <div class="gallery-button">
+              <a href="#!" class="btn-primary">Visit</a>
+            </div>
+          </div>
+          <div class="col gallery-parent">
+            <img src="images/gallery/4.jpg" alt="" class="gallery-image" />
+            <div class="gallery-button">
+              <a href="#!" class="btn-primary">Visit</a>
+            </div>
+          </div>
+          <div class="col gallery-parent">
+            <img src="images/gallery/5.jpg" alt="" class="gallery-image" />
+            <div class="gallery-button">
+              <a href="#!" class="btn-primary">Visit</a>
+            </div>
+          </div>
+          <div class="col gallery-parent">
+            <img src="images/gallery/6.jpg" alt="" class="gallery-image" />
+            <div class="gallery-button">
+              <a href="#!" class="btn-primary">Visit</a>
+            </div>
+          </div>
+          <div class="col gallery-parent">
+            <img src="images/gallery/7.jpg" alt="" class="gallery-image" />
+            <div class="gallery-button">
+              <a href="#!" class="btn-primary">Visit</a>
+            </div>
+          </div>
+          <div class="col gallery-parent">
+            <img src="images/gallery/8.jpg" alt="" class="gallery-image" />
+            <div class="gallery-button">
+              <a href="#!" class="btn-primary">Visit</a>
+            </div>
+          </div>
+          <div class="col gallery-parent">
+            <img src="images/gallery/9.jpg" alt="" class="gallery-image" />
+            <div class="gallery-button">
+              <a href="#!" class="btn-primary">Visit</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="#!" class="btn-primary">ALL PROJECTS</a>
+    </section>
+    <!-- projects-section end -->
+
+    <!-- news-section start -->
+    <section id="news-section" class="py-5 mb-5">
+      <div class="container">
+        <div class="row">
+          <!-- news -->
+          <div class="col-lg-6 py-3">
+            <h4 class="mb-4"><span class="highlight">OUR</span> LATEST NEWS</h4>
+            <!-- news-1 -->
+            <div class="row mt-4">
+              <div class="col-md-4">
+                <img class="w-100" src="images/gallery/11.jpg" alt="" />
+              </div>
+              <div class="col-md-8">
+                <h5 class="my-3">
+                  <span class="underline">MEDICAL</span> TEST CHECKUP
+                </h5>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Iure, unde?
+                </p>
+              </div>
+            </div>
+            <!-- news-2 -->
+            <div class="row mt-4">
+              <div class="col-md-4">
+                <img class="w-100" src="images/gallery/11.jpg" alt="" />
+              </div>
+              <div class="col-md-8">
+                <h5 class="my-3">
+                  <span class="underline">MEDICAL</span> TEST CHECKUP
+                </h5>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Iure, unde?
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- video -->
+          <div class="col-lg-6 py-3 pl-lg-5">
+            <h4 class="mb-4">
+              <span class="highlight">VIDEO</span> INTRODUCTION
+            </h4>
+            <iframe
+              style="width: 100%; height: 100%"
+              src="https://www.youtube.com/embed/3Rx8hUKsbV0"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- news-section end -->
+
+    <footer>
+      <!-- footer-upper start -->
+      <section id="footer-upper" class="py-3">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-lg-3 mt-4">
+              <h4 class="mb-3">
+                <span class="highlight">M</span>EDICAL
+                <span class="highlight">+</span>
+              </h4>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat
+                mollitia nobis fugit sunt nisi nam.
+              </p>
+              <div class="social">
+                <a class="mr-3" href="#!"
+                  ><i class="fa-2x fab fa-facebook-square"></i
+                ></a>
+                <a class="mr-3" href="#!"
+                  ><i class="fa-2x fab fa-twitter-square"></i
+                ></a>
+                <a class="mr-3" href="#!"
+                  ><i class="fa-2x fab fa-google-plus-square"></i
+                ></a>
+                <a class="mr-3" href="#!"
+                  ><i class="fa-2x fab fa-instagram-square"></i
+                ></a>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3 mt-4">
+              <h4 class="mb-3"><span class="highlight">QUICK</span> LINKS</h4>
+              <ul>
+                <li>
+                  <a href="#!"
+                    ><i class="fas fa-angle-right"></i> Healthcare Program</a
+                  >
+                </li>
+                <li>
+                  <a href="#!"
+                    ><i class="fas fa-angle-right"></i> Family Treatment</a
+                  >
+                </li>
+                <li>
+                  <a href="#!"
+                    ><i class="fas fa-angle-right"></i> Medical Injuries</a
+                  >
+                </li>
+                <li>
+                  <a href="#!"
+                    ><i class="fas fa-angle-right"></i> Personal Doctor</a
+                  >
+                </li>
+                <li>
+                  <a href="#!"><i class="fas fa-angle-right"></i> Operations</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-6 col-lg-3 mt-4">
+              <h4 class="mb-3"><span class="highlight">CONTACT</span> US</h4>
+              <p>
+                <span class="highlight"
+                  ><i class="fas fa-map-marker-alt"></i
+                ></span>
+                Shahjalal Plaza, Sylhet
+              </p>
+              <p>
+                <span class="highlight"><i class="fas fa-envelope"></i></span>
+                email@domain.com
+              </p>
+              <p>
+                <span class="highlight"><i class="fas fa-phone"></i></span>
+                (+880) 1234567890
+              </p>
+            </div>
+            <div class="col-md-6 col-lg-3 mt-4 working-hours">
+              <h4 class="mb-3"><span class="highlight">WORKING</span> HOURS</h4>
+              <div class="row">
+                <div class="col-3">Saturday</div>
+                <div class="col-3"><hr /></div>
+                <div class="col-6">9:00 am - 8:00 pm</div>
+              </div>
+              <div class="row">
+                <div class="col-3">Sunday</div>
+                <div class="col-3"><hr /></div>
+                <div class="col-6">9:00 am - 8:00 pm</div>
+              </div>
+              <div class="row">
+                <div class="col-3">Monday</div>
+                <div class="col-3"><hr /></div>
+                <div class="col-6">9:00 am - 8:00 pm</div>
+              </div>
+              <div class="row">
+                <div class="col-3">Tuesday</div>
+                <div class="col-3"><hr /></div>
+                <div class="col-6">9:00 am - 8:00 pm</div>
+              </div>
+              <div class="row">
+                <div class="col-3">Wednesday</div>
+                <div class="col-3"><hr /></div>
+                <div class="col-6">9:00 am - 8:00 pm</div>
+              </div>
+              <div class="row">
+                <div class="col-3">Thursday</div>
+                <div class="col-3"><hr /></div>
+                <div class="col-6">9:00 am - 8:00 pm</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- footer-upper end -->
+
+      <!-- footer-lower start -->
+      <section id="footer-lower">
+        <div class="container">
+          <p><small>AHS &copy; 2020. All rights reserved.</small></p>
+        </div>
+      </section>
+      <!-- footer-lower end -->
+    </footer>
+
+    <!-- =============================== -->
+    <!-- Bootstrap Bundle with Popper.js -->
+    <!-- =============================== -->
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js"
+      integrity="sha384-BOsAfwzjNJHrJ8cZidOg56tcQWfp6y72vEJ8xQ9w6Quywb24iOsW913URv1IS4GD"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

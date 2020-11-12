@@ -1,0 +1,210 @@
+@import "./variables";
+
+// body {
+//   overflow-x: hidden;
+// }
+
+.highlight {
+  color: $primary-color;
+}
+
+.underline {
+  border-bottom: 3px solid $primary-color;
+  padding-bottom: 0.5rem;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.nav-item .active {
+  color: $primary-color !important;
+}
+
+.btn-primary {
+  color: $white-color !important;
+  border-radius: 0;
+  background-color: $primary-color;
+  border-color: $primary-color;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 20px !important;
+  display: inline-block;
+  transition: 0.5s ease;
+}
+
+// .btn-primary:hover {
+//   background-color: $dark-color;
+//   border-color: $dark-color;
+// }
+
+@media (min-width: 768px) {
+  .carousel-item img {
+    opacity: 0.5;
+  }
+}
+
+.carousel-caption {
+  right: 50%;
+  bottom: 5%;
+  left: 15%;
+  text-align: left;
+  h5 {
+    color: $primary-color;
+  }
+
+  p {
+    color: $dark-color;
+  }
+}
+
+.service {
+  background-color: $light-color;
+  text-align: center;
+  font-weight: bold;
+  color: $dark-color;
+  transition: 0.5s ease;
+}
+
+.service-icon {
+  border-bottom: 5px solid $primary-color;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+
+.service:hover {
+  background-color: $primary-color;
+  text-align: center;
+  color: $white-color;
+}
+
+.service:hover .service-icon {
+  border-color: $white-color;
+}
+
+.make-appointment {
+  background-color: $primary-color;
+  h5 {
+    text-align: center;
+    color: $white-color;
+  }
+}
+
+.form-select {
+  border-radius: 0;
+  color: $light-gray-color;
+}
+
+.form-select::placeholder {
+  color: $light-gray-color;
+}
+
+#top-bar {
+  .nav-link {
+    font-weight: bold;
+  }
+}
+
+#slider-section {
+  h3 {
+    font-weight: bold;
+  }
+}
+
+#projects-section {
+  text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../../images/projects-section-bg.jpg");
+  background-size: cover;
+  h4 {
+    font-weight: bold;
+    color: $white-color;
+  }
+  .nav-link {
+    color: $white-color;
+  }
+  .nav-item {
+    .active {
+      @extend .btn-primary;
+    }
+  }
+  .row-cols-5 .col {
+    padding: 0.5rem;
+  }
+  .row-cols-5 img {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+  }
+}
+
+#news-section {
+  color: $dark-color;
+  p {
+    color: $gray-color;
+  }
+}
+
+#footer-upper {
+  background-color: $dark-shade-1;
+  color: $white-color;
+  a {
+    color: $white-color;
+    text-decoration: none;
+  }
+  a:hover {
+    color: $primary-color;
+  }
+  ul {
+    padding: 0;
+  }
+  li {
+    list-style: none;
+    a {
+      i {
+        color: $primary-color;
+      }
+    }
+  }
+}
+
+#footer-lower {
+  background-color: $dark-shade-2;
+  text-align: center;
+  color: $white-color;
+  padding: 0.5rem;
+  p {
+    margin: 0;
+  }
+}
+
+.gallery-parent {
+  position: relative;
+  .gallery-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.5s ease;
+    opacity: 0;
+  }
+  .gallery-image {
+    transition: 0.5s ease;
+  }
+  &:hover {
+    .gallery-button {
+      opacity: 1;
+    }
+    .gallery-image {
+      opacity: 0.3;
+    }
+  }
+  .btn-primary:hover {
+    background-color: $primary-color;
+  }
+}
+
+.working-hours {
+  font-size: 0.75rem;
+}
